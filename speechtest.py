@@ -1,4 +1,6 @@
-#!/usr/bin/env python3                                                                                
+#!/usr/bin/env python3     
+
+#Prefer having a strong internet connection for same 
 
 import speech_recognition as sr  
 
