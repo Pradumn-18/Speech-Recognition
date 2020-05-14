@@ -1,11 +1,13 @@
-#!/usr/bin/env python3                                                                                
+#!/usr/bin/env python3     
+
+#Prefer having a strong internet connection for same 
 
 import speech_recognition as sr  
 
 # get audio from the microphone                                                                       
 r = sr.Recognizer()                                                                                   
 with sr.Microphone() as source:                                                                       
-    print("Speak:")                                                                                   
+    print("Speak your sentence or word :")                                                                                   
     audio = r.listen(source)   
 
 try:
